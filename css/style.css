@@ -213,3 +213,33 @@ a{
     min-height: 200px;
     background-color: aqua;
 }
+
+/*Footer*/
+
+/*Main Footer*/
+footer{
+    background-color: black;
+}
+
+.main-footer{
+    background-color: crimson;
+    padding: 15px;
+}
+
+.main-footer .content{
+    background-color: blue;
+    min-height: 200px;
+}
+
+.main-footer ul{
+    flex-basis: 20%;
+    background-color: blueviolet;
+}
+
+/*Language*/
+
+.language .content{
+    background-color: aqua;
+    padding: 15px;
+}
+
