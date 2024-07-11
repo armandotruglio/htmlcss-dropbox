@@ -46,9 +46,10 @@ a{
 
 /*Navbar*/
 .navbar{
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
 
     min-height: 80px;
     background-color: grey;
@@ -150,4 +151,31 @@ a{
 
 .feature .card{
     min-height: 300px;
+}
+
+/*University*/
+
+.university{
+    min-height: 400px;
+}
+
+.university .left-side{
+    flex-basis: calc(100%/3);
+}
+
+.university .middle{
+    flex-basis: calc(100%/3);
+    background-color: darkorchid;
+}
+
+.university .right-side{
+    flex-basis: calc(100%/3);
+}
+
+.university .right-side, .left-side{
+    flex-wrap: wrap;
+}
+.university-logo{
+    flex-basis: 50%;
+    background-color: darkgoldenrod;
 }
