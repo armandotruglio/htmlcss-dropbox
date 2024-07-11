@@ -89,11 +89,12 @@ a{
 /*Purchase Section*/
 
 .purchase-plan{
-    background-color: blue;
+    background-color: green;
 }
 
 .purchase-plan .row{
     flex-wrap: wrap;
+    background-color: blue;
 }
 
 .purchase-plan .col{
@@ -112,3 +113,4 @@ a{
     min-height: 150px;
 }
 
+/*
