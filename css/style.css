@@ -133,3 +133,21 @@ a{
 }
 
 /*Feature*/
+
+.feature{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.feature .row{
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.feature .col{
+    flex-basis: calc(100%/3);
+}
+
+.feature .card{
+    min-height: 300px;
+}
