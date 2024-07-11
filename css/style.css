@@ -113,4 +113,18 @@ a{
     min-height: 150px;
 }
 
-/*
+/*Partner*/
+
+.partner{
+    min-height: 200px;
+    background-color: brown;
+    padding: 15px;
+}
+
+.partner .left-side{
+    flex-basis: 60%;
+}
+
+.partner .right-side{
+    flex-basis: 40%;
+}
