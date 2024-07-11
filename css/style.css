@@ -39,6 +39,7 @@ a{
 
 /*Header*/
 
+/*Navbar*/
 .navbar{
     position: sticky;
     top: 0;
@@ -60,4 +61,20 @@ a{
 
 .logo{
     display: inline-block;
+}
+
+/*Presebtation Section*/
+
+.presentation{
+    background-color: #b4d0e7;
+    padding-top: 25px;
+}
+
+.presentation > .content{
+    min-height: 400px;
+}
+
+.overflow-section{
+    background-color: white;
+    height: 50px;
 }
