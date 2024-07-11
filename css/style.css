@@ -29,6 +29,11 @@ a{
     margin: 0 auto;
 }
 
+.small-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
@@ -78,3 +83,32 @@ a{
     background-color: white;
     height: 50px;
 }
+
+/*Main*/
+
+/*Purchase Section*/
+
+.purchase-plan{
+    background-color: blue;
+}
+
+.purchase-plan .row{
+    flex-wrap: wrap;
+}
+
+.purchase-plan .col{
+    flex-basis: calc(100%/3);
+}
+
+.purchase-plan .col-expand{
+    flex-grow: 1;
+}
+
+.purchase-plan .card{
+    min-height: 300px;
+}
+
+.purchase-plan .card-expand{
+    min-height: 150px;
+}
+
