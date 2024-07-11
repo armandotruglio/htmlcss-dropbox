@@ -179,3 +179,37 @@ a{
     flex-basis: 50%;
     background-color: darkgoldenrod;
 }
+
+/*Free Trial*/
+
+.free-trial{
+    background-color: #b4d0e7;
+}
+
+.free-trial .content{
+    background-color: brown;
+    min-height: 150px;
+    padding: 15px;
+}
+
+.free-trial .left-side{
+    background-color: blueviolet;
+    flex-basis: 60%;
+}
+
+.free-trial .right-side{
+    background-color: lightblue;
+    flex-basis: 40%;
+}
+
+/*FAQ*/
+
+.faq{
+    background-color: chartreuse;
+    padding: 15px;
+}
+
+.faq .content{
+    min-height: 200px;
+    background-color: aqua;
+}
