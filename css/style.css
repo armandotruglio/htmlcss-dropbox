@@ -90,6 +90,7 @@ a{
 
 .purchase-plan{
     background-color: green;
+    padding: 15px;
 }
 
 .purchase-plan .row{
@@ -123,8 +124,12 @@ a{
 
 .partner .left-side{
     flex-basis: 60%;
+    background-color: pink;
 }
 
 .partner .right-side{
     flex-basis: 40%;
+    background-color: lightblue;
 }
+
+/*Feature*/
