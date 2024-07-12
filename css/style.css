@@ -10,17 +10,29 @@ body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+main{
+    padding-top: 100px;
+}
+
 ul{
     list-style-type: none;
 }
 
 img{
     width: 100%;
+    display: block;
 }
 
 a{
     text-decoration: none;
     color: black;
+    display: inline-block;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 50px
 }
 
 /*Utils*/
@@ -42,6 +54,16 @@ a{
     border: 1px dashed black;
 }
 
+.btn{
+    padding: 5px 10px;
+    font-size: medium;
+}
+
+.btn.btn-primary{
+    color: white;
+    background-color: #0061ff;
+}
+
 /*Header*/
 
 /*Navbar*/
@@ -50,41 +72,57 @@ a{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
     min-height: 80px;
-    background-color: grey;
+    background-color: white;
+
+    justify-content: space-between;
+    align-items: center;
 
     padding: 15px;
+
+    box-shadow: 0 0 6px darkgray;
 }
 
-.nav-left-side{
-    flex-basis: 50%;
-}
-
-.nav-right-side{
-    flex-basis: 50%;
-}
-
-.logo{
-    display: inline-block;
+.nav-links{
+    align-items: center;
+    gap: 20px;
 }
 
 /*Presebtation Section*/
 
 .presentation{
     background-color: #b4d0e7;
-    padding-top: 25px;
+    padding-top: 80px;
 }
 
 .presentation > .content{
+    padding-top: 50px;
     min-height: 400px;
 }
 
-.overflow-section{
-    background-color: white;
-    height: 50px;
+.presentation .left-side{
+    flex-basis: 30%;
 }
 
+.presentation .right-side{
+    flex-basis: 70%;
+}
+
+.presentation .left-side > *{
+    margin-bottom: 25px;
+}
+
+.presentation .fas.fa-arrow-down{
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.presentation .big-container{
+    position: relative;
+    top: 50px;
+}
 /*Main*/
 
 /*Purchase Section*/
