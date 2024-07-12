@@ -65,7 +65,7 @@ hr{
 }
 
 .btn{
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-size: 0.9rem;
     font-weight: lighter;
 }
@@ -137,6 +137,10 @@ hr{
 /*Main*/
 
 /*Purchase Section*/
+
+.purchase-plan{
+    margin-bottom: 100px;
+}
 
 /*Billing choice section*/
 .billing-choice h3{
@@ -255,21 +259,26 @@ hr{
 /*Partner*/
 
 .partner{
-    min-height: 200px;
-    background-color: brown;
     padding: 15px;
+    margin-bottom: 100px;
 }
 
 .partner .left-side{
     flex-basis: 60%;
-    background-color: pink;
 }
 
 .partner .right-side{
     flex-basis: 40%;
-    background-color: lightblue;
+    padding: 25px;
 }
 
+.partner .right-side *{
+    margin-bottom: 25px;
+}
+
+.partner .right-side p{
+    font-size: 0.85rem;
+}
 /*Feature*/
 
 .feature{
