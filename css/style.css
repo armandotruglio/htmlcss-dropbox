@@ -35,6 +35,16 @@ h1{
     margin-bottom: 50px
 }
 
+h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+.h4{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
 hr{
     margin: 40px 15px;
     max-width: 50px;
@@ -143,10 +153,6 @@ hr{
 }
 
 /*Billing choice section*/
-.billing-choice h3{
-    font-size: 2rem;
-    margin-bottom: 35px;
-}
 
 .billing-choice .fa-circle-dot{
     color: #0061ff;;
@@ -280,23 +286,37 @@ hr{
     font-size: 0.85rem;
 }
 /*Feature*/
-
 .feature{
-    background-color: aqua;
-    padding: 15px;
+    margin-bottom: 100px;
 }
 
 .feature .row{
     flex-wrap: wrap;
-    background-color: blue;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
 .feature .col{
-    flex-basis: calc(100%/3);
+    flex-basis: calc(100%/3 - 60px/3);
 }
 
-.feature .card{
-    min-height: 300px;
+.feature-description h5{
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.feature-description p{
+    font-size: 0.85rem;
+}
+
+.feature a{
+    text-decoration: underline;
+    color: #0061ff;
+    font-size: 0.8rem;
+}
+
+.feature-footer-title{
+    max-width: 70%;
 }
 
 /*University*/
