@@ -7,7 +7,7 @@
 
 /*Generics*/
 body{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main{
@@ -35,6 +35,12 @@ h1{
     margin-bottom: 50px
 }
 
+hr{
+    margin: 40px 15px;
+    max-width: 50px;
+    color: darkgray;
+}
+
 /*Utils*/
 .big-container{
     width: 1080px;
@@ -50,13 +56,18 @@ h1{
     display: flex;
 }
 
-.debug{
-    border: 1px dashed black;
+.border{
+    border: solid 1px darkgray;
+}
+
+.border-bottom{
+    border-bottom: solid 1px darkgray;
 }
 
 .btn{
     padding: 5px 10px;
-    font-size: medium;
+    font-size: 0.9rem;
+    font-weight: lighter;
 }
 
 .btn.btn-primary{
@@ -127,32 +138,107 @@ h1{
 
 /*Purchase Section*/
 
-.purchase-plan{
-    background-color: green;
-    padding: 15px;
+/*Billing choice section*/
+.billing-choice h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
 }
+
+.billing-choice .fa-circle-dot{
+    color: #0061ff;;
+}
+
+.billing-choice > div{
+    display: inline-block;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+/*row-col section*/
 
 .purchase-plan .row{
     flex-wrap: wrap;
-    background-color: blue;
+    gap: 20px;
 }
 
 .purchase-plan .col{
-    flex-basis: calc(100%/3);
+    flex-basis: calc(100%/3 - 40px/3);
 }
 
-.purchase-plan .col-expand{
+.purchase-plan .col.expand{
     flex-grow: 1;
 }
+
+/*Card section*/
 
 .purchase-plan .card{
     min-height: 300px;
 }
 
-.purchase-plan .card-expand{
-    min-height: 150px;
+.purchase-plan .card > .header{
+    text-align: center;
 }
 
+.purchase-plan .card-content{
+    padding: 15px;
+}
+
+.plan-type{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.plan-title{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.price{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.plan-feature{
+    margin-bottom: 30px;
+}
+
+.plan-feature > li{
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.plan-feature > li > span{
+    font-size: 0.8rem;
+}
+
+.purchase .btn.btn-primary{
+    margin-bottom: 10px;
+    text-align: center;
+    min-width: 100%;
+}
+
+.purchase-now{
+    font-size: 0.8rem;
+}
+
+.purchase-now a{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.highlights  ul > :first-child{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.highlights ul > li{
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+.highlights .fa-check{
+    color: #0061ff;
+}
 /*Partner*/
 
 .partner{
