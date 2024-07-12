@@ -165,15 +165,11 @@ hr{
     flex-basis: calc(100%/3 - 40px/3);
 }
 
-.purchase-plan .col.expand{
+.purchase-plan .col-expand{
     flex-grow: 1;
 }
 
 /*Card section*/
-
-.purchase-plan .card{
-    min-height: 300px;
-}
 
 .purchase-plan .card > .header{
     text-align: center;
@@ -185,7 +181,6 @@ hr{
 
 .plan-type{
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 
 .plan-title{
@@ -199,6 +194,7 @@ hr{
 }
 
 .plan-feature{
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -224,6 +220,23 @@ hr{
 .purchase-now a{
     text-decoration: underline;
     color: #0061ff;
+}
+
+.col-expand .card-content{
+    justify-content: space-between;
+}
+
+.col-expand .price{
+    margin-bottom: 50px;
+}
+
+.col-expand .plan-type{
+    flex-basis: 70%;
+}
+
+.col-expand .purchase{
+    flex-basis: 30%;
+    margin-top: 20px;
 }
 
 .highlights  ul > :first-child{
