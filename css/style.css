@@ -46,8 +46,8 @@ h4{
 }
 
 hr{
-    margin: 40px 15px;
-    width: 50px;
+    margin: 40px 0;
+    width: 30%;
     color: darkgray;
 }
 
@@ -86,6 +86,10 @@ hr{
     background-color: #0061ff;
 }
 
+.btn:hover{
+    filter: brightness(1.3);
+}
+
 /*Header*/
 
 /*Navbar*/
@@ -96,7 +100,6 @@ hr{
     right: 0;
     z-index: 1;
 
-    min-height: 80px;
     background-color: white;
 
     justify-content: space-between;
@@ -358,6 +361,11 @@ hr{
     justify-content: center;
     align-items: center;
     height: calc(100vw/6);
+    border: 15px solid rgba(255, 255, 255, 0);
+}
+
+.university-logo:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 
 .university-logo img{
