@@ -321,17 +321,28 @@ hr{
 
 /*University*/
 
-.university{
-    min-height: 400px;
-}
-
 .university .left-side{
     flex-basis: calc(100%/3);
 }
 
 .university .middle{
     flex-basis: calc(100%/3);
-    background-color: darkorchid;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.university .middle img{
+    width: 60%;
+}
+
+.university .middle p{
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.university .middle address{
+    font-style: normal;
+    font-size: 0.8rem;
 }
 
 .university .right-side{
@@ -343,7 +354,46 @@ hr{
 }
 .university-logo{
     flex-basis: 50%;
-    background-color: darkgoldenrod;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vw/6);
+}
+
+.university-logo img{
+    filter: invert(1);
+    width: 60%;
+}
+
+.university-logo.designit{
+    background-color: #a2d39b;
+}
+
+.university-logo.arizona{
+    background-color: #61082b;
+}
+
+.university-logo.florida{
+    background-color: #0093ce;
+}
+
+.university-logo.topps{
+    background-color: #ff1c1c;
+}
+
+.university-logo.bicycle{
+    background-color: #d5001f;
+}
+
+.university-logo.hearst{
+    background-color: #b4d0e7;
+}
+
+.university-logo.lonely{
+    background-color: #0d2481;
+}
+
+.university-logo.outdoor{
+    background-color: #ffd830;
 }
 
 /*Free Trial*/
