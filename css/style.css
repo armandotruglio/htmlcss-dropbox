@@ -78,6 +78,7 @@ hr{
     padding: 10px 15px;
     font-size: 0.9rem;
     font-weight: lighter;
+    background-color: white;
 }
 
 .btn.btn-primary{
@@ -403,19 +404,23 @@ hr{
 }
 
 .free-trial .content{
-    background-color: brown;
-    min-height: 150px;
-    padding: 15px;
+    padding: 50px;
 }
 
 .free-trial .left-side{
-    background-color: blueviolet;
     flex-basis: 60%;
+    color: #681e42;
 }
 
 .free-trial .right-side{
-    background-color: lightblue;
     flex-basis: 40%;
+    text-align: end;
+}
+
+.free-trial .right-side a{
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /*FAQ*/
