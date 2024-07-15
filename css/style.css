@@ -404,12 +404,16 @@ hr{
 }
 
 .free-trial .content{
-    padding: 50px;
+    padding: 70px;
 }
 
 .free-trial .left-side{
     flex-basis: 60%;
     color: #681e42;
+}
+
+.free-trial .left-side h3{
+    margin: 0;
 }
 
 .free-trial .right-side{
