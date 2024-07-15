@@ -47,7 +47,7 @@ h4{
 
 hr{
     margin: 40px 15px;
-    max-width: 50px;
+    width: 50px;
     color: darkgray;
 }
 
@@ -454,24 +454,38 @@ footer{
 }
 
 .main-footer{
-    background-color: crimson;
-    padding: 15px;
-}
-
-.main-footer .content{
-    background-color: blue;
-    min-height: 200px;
+    padding: 100px 0;
 }
 
 .main-footer ul{
     flex-basis: 20%;
-    background-color: blueviolet;
+    color: white;
+}
+
+.main-footer a{
+    color: white;
+    font-size: 0.85rem;
+    padding: 8px 0;
+}
+
+.main-footer li h5{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer hr{
+    margin: 0;
+    width: 150px;
 }
 
 /*Language*/
 
 .language .content{
-    background-color: aqua;
-    padding: 15px;
+    padding: 40px 0;
+    color: #999999;
+    font: 1.1rem;
+    align-items: center;
 }
-
+.language .content *{
+    margin-right: 10px;
+}
